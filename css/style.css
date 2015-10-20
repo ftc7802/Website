@@ -1,0 +1,27 @@
+.jobs{
+  list-style-type: none;
+}
+
+#mobhead,
+#mobnav{
+  display: none;
+}
+
+#comphead{
+  display:  inherit;
+}
+
+
+@media (max-width: 40.0625em){
+  #mobhead{
+	display: inherit;
+  }
+  
+  #mobnav{
+	display: inline-block;
+  }
+
+  #comphead{
+    display: none;
+  }
+}
